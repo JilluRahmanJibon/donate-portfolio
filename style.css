@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* same-class uses */
+.section-container {
+    width: 80rem;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.same-btn {
+    color: white;
+    padding: 12px 23px;
+    text-decoration: none;
+    background-color: #ff5959;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* same-class uses */
+
+/* home area start css */
+.home-bg {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    opacity: 0.8;
+
+}
+
+.home-bg::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.home-content {
+    text-align: center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.home-content h1 {
+    color: black;
+    font-size: 3.2rem;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5;
+}
+
+.home-content p {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+/* home area end css */
