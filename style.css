@@ -257,3 +257,23 @@
 }
 
 /* update area end */
+
+
+/* footer start */
+footer {
+    background-color: black;
+    padding: 45px 0;
+    text-align: center;
+}
+
+footer h1 {
+    color: chocolate;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+}
+
+/* footer end */
