@@ -209,5 +209,51 @@
 
 /* mission area end */
 
+
+
 /* update area start */
+.update-content {
+    text-align: center;
+    padding: 0px 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.update-content h1 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.update-content p {
+    color: #707070;
+    padding-bottom: 20px;
+}
+
+.update-content .subscribe-btn {
+    background-color: #fff4d6;
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.subscribe-btn input {
+    position: relative;
+    padding: 12px 23px;
+    outline: none;
+    border: none;
+
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-btn a {
+    color: white;
+    padding: 10px 23px;
+    text-decoration: none;
+    background-color: #ff5959;
+    display: inline-block;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+}
+
 /* update area end */
