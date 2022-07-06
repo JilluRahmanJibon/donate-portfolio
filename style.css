@@ -98,11 +98,6 @@
     transition: .3s;
 }
 
-/* #donate-count p:hover {
-    background-color: #ffeeee;
-    border: 3px solid #ff5959;
-    color: #ff5959;
-} */
 
 .active {
     background-color: #ffeeee !important;
@@ -200,6 +195,49 @@
 .width-50 p {
     color: #707070;
     padding-bottom: 30px;
+}
+
+.width-25 {
+    width: 50%;
+    padding: 10px 10px;
+    float: left !important;
+}
+
+.width-25 img {
+    width: 100%;
+}
+
+.pd {
+    padding: 0;
+    margin: 0;
+}
+
+.pb {
+    padding-bottom: 15px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+h1#latter-specing.pd {
+    padding: 0;
+}
+
+h1.pd {
+    padding: 0;
+}
+
+#latter-specing {
+    line-height: 28px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.heidth {
+    height: 250px !important;
+}
+
+.fix {
+    display: flex;
 }
 
 /* mission area end */
