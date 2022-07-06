@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(110, 100, 100, 0.719), rgba(2, 0, 0, 0.555)),
+    background: linear-gradient(rgba(49, 48, 48, 0.719), rgba(2, 0, 0, 0.555)),
         url(images/donation7.jpg);
 }
 
